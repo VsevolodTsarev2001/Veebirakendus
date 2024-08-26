@@ -1,0 +1,43 @@
+header, footer{
+	color: FloralWhite; /*teksti värv*/
+	background-color: CadetBlue; /*tausta värv*/
+	width: 50%; /*laius*/
+	text-align: center;
+	border: solid 4pt DarkCyan; /*piir - dashed, dotted, double*/
+	border-radius: 60px 120px 60px 120px;
+	padding: 1%;
+}
+main section {
+	background-color: DeepSkyBlue;
+	border: dotted 4pt Cyan;
+	margin:5px;
+	width: 40%;
+	padding: 1%;
+}
+main section h2{
+	color: red;
+	font-variant: small-caps; /*normal*/
+}
+nav ul {
+  list-style-type: none; /*loetelu markerid*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*kuidas näidata nav elemendid*/
+  background-color: DarkTurquoise;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block; /*ühe realine navbar*/
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*underline*/
+}
+
+nav li a:hover { /*link fookuses*/
+  background-color: LightSkyBlue;
+}
